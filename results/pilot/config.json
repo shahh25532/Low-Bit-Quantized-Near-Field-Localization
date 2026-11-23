@@ -1,0 +1,17 @@
+{
+  "antennas": 32,
+  "rf_chains": 4,
+  "carrier_ghz": 25,
+  "snrs": [-15.0, -10.0, -5.0, 0.0, 5.0, 10.0],
+  "samples_per_snr": 120,
+  "epochs": 4,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "full_scale": 3.0,
+  "architectures": ["cnn", "mlp"],
+  "bit_depths": ["float", "1", "2", "4"],
+  "seed": 2026,
+  "output_dir": "results/pilot",
+  "device": "cpu",
+  "license_note": "Original inspiration: Fabiani et al. ICC 2025; see ATTRIBUTION.md"
+}
