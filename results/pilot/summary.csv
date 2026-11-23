@@ -1,0 +1,9 @@
+architecture,bits,mean_test_rmse_m,epochs,test_locations_per_snr
+cnn,1,5.237,4,18
+cnn,2,5.242,4,18
+cnn,4,5.250,4,18
+cnn,float,5.348,4,18
+mlp,1,5.461,4,18
+mlp,2,5.586,4,18
+mlp,4,5.650,4,18
+mlp,float,5.631,4,18
